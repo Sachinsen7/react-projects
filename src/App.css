@@ -1,0 +1,90 @@
+/* Base Styling */
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to bottom right, #ffcc80, #ff8a80);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.diwali-app {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+h1 {
+  color: #d32f2f;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Form Styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  padding: 10px;
+  border: 2px solid #ff7043;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.input-field:focus {
+  border-color: #d32f2f;
+  box-shadow: 0 0 5px rgba(211, 47, 47, 0.5);
+}
+
+.btn {
+  background-color: #ff7043;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #d32f2f;
+  transform: scale(1.05);
+}
+
+/* List Styling */
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  background-color: #ffe0b2;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+.list-item:hover {
+  background-color: #ff7043;
+  color: white;
+  transform: translateX(5px);
+}
